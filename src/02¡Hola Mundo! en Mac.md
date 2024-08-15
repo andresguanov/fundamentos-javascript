@@ -11,7 +11,7 @@ Para instalar Visual Studio Code en tu Mac, sigue estos pasos:
 
 ¡Listo! Ahora tienes instalado Visual Studio Code en tu Mac. 
 
-**Te recomendamos Visual Studio Code porque es potente, fácil de usar y tiene muchas extensiones disponibles para mejorar tu experiencia de desarrollo**. Sin embargo, sientete libre de usar cualquier otro editor de texto que prefieras.
+**Te recomendamos Visual Studio Code porque es potente, fácil de usar y tiene muchas extensiones disponibles para mejorar tu experiencia de desarrollo**. Sin embargo, siéntete libre de usar cualquier otro editor de texto que prefieras.
 
 ## Cómo instalar Node.js
 
@@ -42,7 +42,7 @@ Si ves la versión de Node.js que acabas de instalar, ¡felicidades! Ahora está
 
 ## Tu primer programa en JavaScript
 
-Para escribir tu primer programa en JavaScript, crea un nuevo archivo llamado `hola-mundo.js` en Visual Studio Code. **Ten encuenta que la extensión del archivo debe ser `.js`.**
+Para escribir tu primer programa en JavaScript, crea un nuevo archivo llamado `hola-mundo.js` en Visual Studio Code. **Ten en cuenta que la extensión del archivo debe ser `.js`.**
 
 Escribe el siguiente código en tu archivo `hola-mundo.js`:
 
