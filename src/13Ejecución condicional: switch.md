@@ -1,29 +1,29 @@
-La estructura `switch` es otra forma de evaluar condiciones. A diferencia de `if`, `switch` evalúa **una expresión y dependiendo del resultado**, ejecuta un bloque de código.
+La estructura `switch` es otra forma de evaluar condiciones. A diferencia de `if`, `switch` evalúa **una expresión, y dependiendo del resultado**, ejecuta un bloque de código.
 
 ## Cómo utilizar la estructura de control `switch`
 
 Utilizamos la palabra reservada `switch`, seguido de la variable o expresión a evaluar, pero sin ningún operador de comparación.
 
 ```js
-switch (expresion) {}
+switch (expresion) 
 ```
 
 Después colocamos cada caso con la palabra reservada `case` y el valor que deberá ser igual a la expresión. Seguido colocamos el bloque de código a ejecutar y al final la palabra reservada `break` para que no vuelva a evaluar otra condición si ya se cumplió.
 
 ```js
 switch (expresion) {
-    case valor1: {
-        // Bloque 1
-        break
-    }
-    case valor2: {
-        // Bloque 1
-        break
-    }     
+  case valor1: {
+    // Bloque 1
+    break
+  }
+  case valor2: {
+    // Bloque 1
+    break
+  }
 }
 ```
 
-La expresión será evaluada por cada caso, como si fuera `if (expresion === valor1)`, con una comparación estricta (valor y tipo de dato).
+La expresión será evaluada por cada caso, como si fuera `if (expresion === valor1)`, con una comparación estricta (de valor y tipo de dato).
 
 Finalmente, colocamos la condición por defecto con la palabra reservada `default` que se ejecutará si ninguno de los casos fue el correcto. Esto es semejante al bloque `else`. 
 
@@ -53,7 +53,7 @@ switch (color) {
     break
   }
   case "amarillo": {
-    console.log("¡Detente!")
+    console.log("¡Atención!")
     break
   }
   case "rojo": {
@@ -66,12 +66,13 @@ switch (color) {
 }
 ```
 
-Dependiendo de una variable `color`, se ejecutará un bloque de código según sea el caso. Pruébalo en tu editor de código.
+Dependiendo de una variable `color`, se ejecutará un bloque de código dependiendo del caso. Pruébalo en tu editor de código.
 
 ## Cuándo deberías utilizar `switch`
 
-Deberías utilizar `switch` cuando tengas **una gran cantidad de casos**, que con el condicional `if` produciría más cantidad de código ilegible. El problema con `switch` es que no es muy utilizado y se puede resolver con la estructura `if`. Sin embargo, conocer esta estructura te puede permitir escribir código más legible y mantenible en ciertos casos.
+Deberías utilizar `switch` cuando tengas una gran cantidad de casos, ya que con `if` el código podría volverse más largo y menos legible. 
 
+Aunque `switch` no siempre es la única solución, puede ayudar a hacer tu código más organizado y fácil de entender en ciertos contextos.
 
 ## Aprende sobre estructuras de control repetitivas
 
