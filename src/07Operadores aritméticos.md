@@ -2,7 +2,7 @@ Los operadores aritméticos sirven para **realizar operaciones matemáticas** de
 
 ## Qué son los tipos de datos numéricos
 
-Los **tipos de datos numéricos son aquellos que representan números**. En JavaScript, los valores enteros y decimales son considerados como el mismo tipo de dato `'number`. Sin embargo, en otros lenguajes de programación, son considerados como tipos de datos diferentes.
+Los **tipos de datos numéricos son aquellos que representan números**. En JavaScript, los valores enteros y decimales son considerados como el mismo tipo de dato `'number'`. Sin embargo, en otros lenguajes de programación, son considerados como tipos de datos diferentes.
 
 Los decimales también son conocidos como **números de punto flotante** o **flotantes**. Tenlo en cuenta si lo lees en algún otro lugar.
 
@@ -65,7 +65,7 @@ console.log(modulo) // 1
 
 Esto es de utilidad para **saber si un número es par o impar**, o si un número es **divisible entre otro número**. Ya que si el residuo es 0, significa que es divisible.
 
-Por ejemplo, si queremos saber si `152466` es divisible para `4`. Podemos hacer la operación módulo y si el resultado es `0`, significa que es divisible.
+Por ejemplo, si queremos saber si `152466` es divisible por `4`. Podemos hacer la operación módulo y si el resultado es `0`, significa que es divisible.
 
 ```js
 let numero = 152466
