@@ -11,7 +11,7 @@ Para instalar Visual Studio Code en tu Windows, sigue estos pasos:
 
 ¡Listo! Ahora tienes instalado Visual Studio Code en tu Windows. 
 
-**Te recomendamos Visual Studio Code porque es potente, fácil de usar y tiene muchas extensiones disponibles para mejorar tu experiencia de desarrollo**. Sin embargo, sientete libre de usar cualquier otro editor de texto que prefieras.
+**Te recomendamos Visual Studio Code porque es potente, fácil de usar y tiene muchas extensiones disponibles para mejorar tu experiencia de desarrollo**. Sin embargo, siéntete libre de usar cualquier otro editor de texto que prefieras.
 
 ## Cómo instalar Node.js
 
@@ -23,7 +23,7 @@ Para instalar Node.js en tu Windows, sigue estos pasos:
 Para entender estas opciones, te dejamos una breve explicación:
 * **La versión LTS es la versión recomendada para la mayoría de los usuarios**, ya que es más estable y tiene soporte a largo plazo. El número de versión puede variar según la fecha en la que estés leyendo este artículo
 * El sistema operativo de Windows es el sistema operativo que estás utilizando
-* La arquitetura de tu sistema, la mayoría de computadoras son 64 bits o x64. Si no estás seguro de cuál es la arquitectura de tu sistema, puedes verificarlo en la configuración de tu computadora.
+* La arquitectura de tu sistema, la mayoría de computadoras son 64 bits o x64. Si no estás seguro de cuál es la arquitectura de tu sistema, puedes verificarlo en la configuración de tu computadora.
 
 3. Ejecuta el archivo descargado y sigue las instrucciones del instalador.
 
@@ -41,7 +41,7 @@ Si ves la versión de Node.js que acabas de instalar, ¡felicidades! Ahora está
 
 ## Tu primer programa en JavaScript
 
-Para escribir tu primer programa en JavaScript, crea un nuevo archivo llamado `hola-mundo.js` en Visual Studio Code. **Ten encuenta que la extensión del archivo debe ser `.js`.**
+Para escribir tu primer programa en JavaScript, crea un nuevo archivo llamado `hola-mundo.js` en Visual Studio Code. **Ten en cuenta que la extensión del archivo debe ser `.js`.**
 
 Escribe el siguiente código en tu archivo `hola-mundo.js`:
 
@@ -59,7 +59,7 @@ Si todo salió bien, deberías ver el mensaje `¡Hola Mundo!` impreso en tu term
 
 ### Por qué "Hola mundo"
 
-La sentencia "Hola Mundo" es un programa simple que se utiliza comúnmente para **demostrar el funcionamiento básico** de un lenguaje de prograWindowsión. 
+La sentencia "Hola Mundo" es un programa simple que se utiliza comúnmente para **demostrar el funcionamiento básico** de un lenguaje de programación.
 
 Al escribir y ejecutar este programa, puedes **verificar que tu entorno de desarrollo está configurado correctamente** y que puedes escribir y ejecutar código en el lenguaje que estás aprendiendo.
 
