@@ -43,7 +43,7 @@ El operador de concatenación es **similar al operador de suma**, pero no es el 
 
 ## Qué son los *template literals*
 
-Los *template literals* o plantillas literales son una forma de crear *strings* más legibles y mantenibles. En el que se pueden incluir **variables y expresiones**.
+Los *template literals* o plantillas literales son una forma de crear *strings* más legibles y mantenibles. En los que se pueden incluir **variables y expresiones**.
 
 ### Qué problema resuelven los *template literals*
 
@@ -109,7 +109,7 @@ También puedes hacer **operaciones** con *strings*, como **obtener la longitud*
 
 Rápidamente, los atributos y métodos son valores o modificaciones que se aplican a un *string* mediante la notación de punto (`.`). Pero diferencialos rápidamente en que los atributos son valores y los métodos son funciones que necesitan paréntesis `()` para ejecutarse.
 
-Ya entenderás qué son los atributos y métodos cuando abarquemos el tema de objetos. 
+Los conceptos de atributos y métodos serán explicados con más detalle en la [sección sobre objetos](https://platzi.com/clases/10266-javascript/70358-anatomia-de-un-objeto/), que abordaremos más adelante en el curso.
 
 ### Cómo obtener la longitud de un *string*
 
