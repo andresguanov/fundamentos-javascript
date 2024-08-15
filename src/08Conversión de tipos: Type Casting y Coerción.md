@@ -22,7 +22,7 @@ En este tipo de lenguajes, **el chequeo de tipos es dinámico**, lo que signific
 
 JavaScript es un lenguaje de programación interpretado. Es un lenguaje de **tipado débil y dinámico**, lo que significa que **no es necesario declarar el tipo de dato de una variable** y que **los tipos de datos pueden cambiar en tiempo de ejecución**.
 
-Esto es importonate porque en JavaScript, al ser un lenguaje débil y dinámicamente tipado, **es necesario tener cuidado con la conversión de tipos**. Ya que el compilador tratará de interpretar el código de la mejor manera posible, pero puede arrojar **resultados inesperados**.
+Esto es importante porque en JavaScript, al ser un lenguaje débil y dinámicamente tipado, **es necesario tener cuidado con la conversión de tipos**. Ya que el compilador tratará de interpretar el código de la mejor manera posible, pero puede arrojar **resultados inesperados**.
 
 ## Cómo funciona la conversión de tipos en JavaScript
 
@@ -33,9 +33,9 @@ Esto es importonate porque en JavaScript, al ser un lenguaje débil y dinámicam
 
 ## Qué es la conversión implícita o *type coercion*
 
-**La conversión implícita consiste en la transformación de tipos mediante la ayuda de JavaScript.** Esto ocurre en operaciones de diferentes tipos, ya que es un lenguaje débil y dinámicamente tipado.
+La conversión implícita consiste en la transformación de tipos mediante la **ayuda de JavaScript.** Esto ocurre en operaciones de diferentes tipos, ya que es un lenguaje débil y dinámicamente tipado.
 
-Al momento de compilar el código, el motor de JavaScript si encuentra alguna incoherencia (una suma de un número con un *string*), **el motor lo interpreta a su manera y arroja un valor que puede ser erróneo**. 
+Al momento de ejecutar el código, si el motor de JavaScript encuentra alguna incoherencia (una suma de un número con un *string*), **el motor lo interpreta a su manera y arroja un valor que puede ser erróneo**. 
 
 Algunos de los ejemplos de coerción implícita son los siguientes:
 
@@ -50,7 +50,7 @@ Ten en cuenta que **la coerción implícita puede ser peligrosa**, ya que puede 
 
 ## Qué es la conversión explícita o *type casting*
 
-**La conversión explícita es la transformación de tipos de datos que controlamos el resultado.** Para realizar estas transformaciones se utiliza las funciones `Number()`, `String()` y `Boolean()`, para convertir a tipo número, *string* y booleano, respectivamente.
+La conversión explícita es la transformación de tipos de datos sobre la que **controlamos el resultado.** Para realizar estas transformaciones se utiliza las funciones `Number()`, `String()` y `Boolean()`, para convertir a tipo número, *string* y booleano, respectivamente.
 
 ```js
 Number("47") // 47
@@ -66,7 +66,7 @@ typeof String(51)   // 'string'
 typeof Boolean(1)   // 'boolean'
 ```
 
-Ten en cuenta que **la conversión explícita es más segura que la conversión implícita**, ya que controlamos el resultado de la transformación. También que debe existir lógica en conversión, si deseas connvertir `"Hola"` a número, no será posible.
+Ten en cuenta que **la conversión explícita es más segura que la conversión implícita**, ya que controlamos el resultado de la transformación. También que debe existir lógica en conversión, si deseas convertir `"Hola"` a número, no será posible.
 
 
 ## Aprende sobre los operadores de comparación en JavaScript
