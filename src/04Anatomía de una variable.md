@@ -1,4 +1,4 @@
-Una variable es la representación de un lugar en memoria que reservamos para **guardar un valor** en específico. El valor puede ser cualquier **tipo de dato**, como un número, un texto, entre otros. Ten en cuenta el concepto de **tipo de dato** porque es fundamental en la programación.
+Una variable es la representación de un lugar en memoria que reservamos para **guardar un valor en específico**. El valor puede ser cualquier **tipo de dato**, como un número, un texto, entre otros. Ten en cuenta el concepto de **tipo de dato** porque es fundamental en la programación.
 
 ## Cómo declarar y asignar variables
 En JavaScript, una variable se crea con la palabra reservada `var`, seguido del nombre de la variable. Esto se denomina **declaración**.
@@ -112,7 +112,7 @@ console.log(nameVar) // 'me re-declaré'
 
 let nameLet = 'me re-declaré let' // SyntaxError: Identifier 'nameLet' has already been declared.
 
-const nameConst = 'me re-declaré let' //SyntaxError: Identifier 'nameConst' has already been declared.
+const nameConst = 'me re-declaré const' //SyntaxError: Identifier 'nameConst' has already been declared.
 ```
 
 ```js
@@ -136,9 +136,9 @@ A continuación, se presentan algunas buenas prácticas para declarar variables 
 
 Hasta ahora aprendiste brevemente a declarar variables con `var`,`let` y `const`. Sin embargo, en la **actualidad se recomienda** utilizar `let` y `const` para declarar variables. 
 
-Las palabras reservadas `let` y `const` resuelven varios problemas de `var`, como re-declaración y re-asignación de variables, el *hoisting*, y variables globales. 
+Las palabras reservadas `let` y `const` resuelven varios problemas de `var`, como la re-declaración y re-asignación de variables, el *hoisting*, y variables globales. 
 
-Así que ten en cuenta que `let` y `const` son la n**ueva forma de declarar** variables en JavaScript. Y `var` es la forma antigua. Los siguientes ejemplos únicamente se escribiran con `let` y `const`.
+Así que ten en cuenta que `let` y `const` son la **nueva forma de declarar** variables en JavaScript. Y `var` es la forma antigua. Los siguientes ejemplos únicamente se escribirán con `let` y `const`.
 
 
 ### Cómo nombrar variables
