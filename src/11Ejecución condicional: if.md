@@ -9,7 +9,7 @@ if (edad >= 18){
 }
 ```
 
-La palabra reservada `else` sirve para evaluar un bloque cuando la expresión del `if` es falsa, pero no es obligatorio colocarlo. En el ejemplo anterior, cuando la edad menor que 18, entonces no puedes conducir.
+La palabra reservada `else` sirve para evaluar un bloque cuando la expresión del `if` es falsa, pero no es obligatorio colocarlo. En el ejemplo anterior, cuando la edad es menor que 18, entonces no puedes conducir.
 
 ```js
 if (edad >= 18){
@@ -22,7 +22,7 @@ if (edad >= 18){
 En otras palabras, si (`if`) una acción (`expresión`) es verdadera (`true`) realizo una acción (`bloques de código`), caso contrario (`else`) realizo otra acción.
 
 ## Cómo anidar condicionales
-Has aprendido a utilizar un condicional, pero ¿y si tenemos varias condiciones? **Entonces utilizamos las palabras reservadas `else if` junto a la condición a ejecutar**, puedes utilizar varias condiciones que necesites. Sin embargo, JavaScript evalúa la primera condición, luego a la segunda, y así sucesivamente. Esto es importante para ordenar las condiciones correctamente  y no sobreescribirlas.
+Has aprendido a utilizar un condicional, pero ¿y si tenemos varias condiciones? **Entonces utilizamos las palabras reservadas `else if` junto para la condición a ejecutar**, puedes utilizar varias condiciones que necesites. Sin embargo, JavaScript evalúa la primera condición, luego a la segunda, y así sucesivamente. Esto es importante para ordenar las condiciones correctamente, y no sobreescribirlas.
 
 ```js
 if (condicion1){
@@ -36,7 +36,7 @@ if (condicion1){
 }
 ```
 
-Por ejemplo, un cliente solicita un descuento según el número de artículos que ha comprado, la tienda ofrece 3 descuentos: 10% si ha comprado más de 5 artículos, 15% si son más de 10 artículos, y todo por encima de 15 artículos recibe un 20% de descuento.
+Por ejemplo, un cliente solicita un descuento según el número de artículos que ha comprado, la tienda ofrece 3 descuentos: 10% si ha comprado más de 5 artículos, 15% si son más de 10 artículos, y todo lo que esté por encima de 15 artículos recibe un 20% de descuento.
 
 ```js
 let precio = 10 
@@ -58,7 +58,7 @@ console.log(precio)
 
 **El operador ternario es una forma de simplificar un condicional.** Esto sirve para evaluar una condición de manera rápida. 
 
-La estructura es la siguiente y se lee como: "Evalúa la condición (`?`), si es verdadera ejecuta el "Bloque verdadero", caso contrario (`:`), ejecuta el "Bloque falso".
+La estructura es la siguiente y se lee como: "Evalúa la condición (`?`), si es verdadera ejecuta el "Bloque verdadero", de lo contrario (`:`), ejecuta el "Bloque falso".
 
 ```
 condicion ? Bloque verdadero : Bloque falso
