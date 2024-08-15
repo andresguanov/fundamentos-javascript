@@ -3,10 +3,10 @@ Los tipos de datos en JavaScript son **la característica propia que tiene un va
 ## Qué son los tipos de datos primitivos
 Los tipos de datos primitivos son los más básicos y simples que se pueden utilizar en JavaScript. Estos tipos de datos son **inmutables**, es decir, que no se pueden modificar. Estos son los siguientes: 
 
-* **number**: indica un valor **numérico**, ya sea entero o flotante, flotante significa que tiene decimales
+* **number**: indica un valor **numérico**, ya sea entero o flotante (con decimales)
 * **string**: indica una **cadena de caracteres**, el valor está envuelto en comillas dobles `"` o simples `'`
 * **boolean** indica un valor **lógico binario**, es decir, los valores verdadero o `true` y falso o `false`
-* **null**: indica un valor **nulo**, es decir un valor vacío
+* **null**: indica un valor **nulo**, es decir, un valor vacío
 * **undefined**: indica un valor **no definido**, es decir, que no tiene valor asignado
 
 Existen dos tipos primitivos más: `bigint` y `symbol`, pero es un tema que aprenderás más adelante.
@@ -22,7 +22,7 @@ En otras palabras, todo aquello que no sea un primitivo o una función, es un ob
 ## Cómo utilizar la palabra reservada `typeof`
 La palabra reservada `typeof` permite **identificar el tipo de dato** de un valor en JavaScript. Este operador devuelve una cadena de texto o *string*.
 
-Existe una excepción, al ejecutar `typeof null`, en la terminal mostrará `'object'`, esto es un error en JavaScript que **no se ha corregido por temas de compatibilidad**. Tenlo en cuenta.
+Existe una excepción, al ejecutar `typeof null`, en la terminal mostrará `'object'`, esto es un error en JavaScript que **no se ha corregido por motivos de compatibilidad**. Tenlo en cuenta.
 
 Ingresa a la terminal y ejecuta cada línea del siguiente ejemplo y observa cuál es la respuesta.
 
@@ -43,7 +43,7 @@ typeof new Date()       // 'object'
 ```
 
 ### Ten precaución con el tipo de dato string
-El tipo de dato `string` es una cadena de caracteres que se utiliza para almacenar texto. Este tipo de dato se puede declarar utilizando comillas simples `'` o dobles `"`. Por lo tanto no confundas el tipo de dato `string` con otros tipos de dato.
+El tipo de dato `string` es una cadena de caracteres que se utiliza para almacenar texto. Este tipo de dato se puede declarar utilizando comillas simples (`'`) o dobles (`"`). Por lo tanto, no confundas el tipo de dato `string` con otros tipos de dato.
 
 ```js
 typeof 'hola'       // 'string'
@@ -54,10 +54,10 @@ typeof 'undefined'  // 'string'
 typeof '[1,2,3]'    // 'string'
 ```
 
-En definitiva, no confundas el tipo de dato `string` con otros tipos de datos, **recuerda que es una cadena de caracteres**. Esto en especial es importante cuando trabajas con datos que provienen de una API o de una base de datos.
+En definitiva, no confundas el tipo de dato `string` con otros tipos de datos, **recuerda que es una cadena de caracteres**. Esto es especialmente importante cuando trabajas con datos que provienen de una API o de una base de datos.
 
 
-## Qué es el tipo de dato Big Int
+## Qué es el tipo de dato BigInt
 El nuevo dato primitivo `bigint` permite **manejar números enteros muy grandes**.
 
 Existen dos formas de crear un `bigint`: 
@@ -72,7 +72,7 @@ typeof 45n // 'bigint'
 typeof number1 // 'bigint'
 ```
 
-### Qué problema resuelve el tipo de dato Big Int
+### Qué problema resuelve el tipo de dato BigInt
 
 **JavaScript tiene límites numéricos**, un máximo `Number.MAX_SAFE_INTEGER` y un mínimo `Number.MIN_SAFE_INTEGER`. Puedes ver estos límites ejecutando el siguiente código:
 
@@ -97,7 +97,7 @@ console.log(bigInt) // 9007199254740993n
 
 Como puedes observar en el código anterior, se añade la misma cantidad a ambos tipos de datos, sin embargo, el tipo numérico da un **resultado diferente al esperado**.
 
-## Qué es tipo de dato Symbol
+## Qué es el tipo de dato Symbol
 El tipo de dato `symbol` es un **valor único e inmutable** que se utiliza como clave de una propiedad de un objeto.
 
 ```js
