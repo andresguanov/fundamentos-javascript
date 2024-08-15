@@ -1,10 +1,8 @@
 Los operadores de comparación, como su nombre lo indica, son utilizados para **comparar valores**. Estos operadores devuelven un valor lógico dependiendo si la comparación es verdadera o falsa.
 
-
 ## Qué son los operadores de igualdad
 
-Los operadores de igualdad son utilizados para **comparar dos valores** y devuelven verdadero (`true`) si son iguales y falso (`false`) si no lo son. En JavaScript existe dos tipos de operadores de igualdad:
-
+Los operadores de igualdad son utilizados para **comparar dos valores** y devuelven verdadero (`true`) si son iguales y falso (`false`) si no lo son. En JavaScript existen dos tipos de operadores de igualdad:
 
 * **Igualdad por valor (`==`):** compara dos variables solamente por su valor. Por ejemplo: `"3"` de tipo *string* y `3` de tipo número son iguales.
 * **Igualdad por valor y tipo de dato (`===`):** compara dos variables por su valor y tipo de dato. Por ejemplo: `"3"` de tipo *string* y `3` de tipo número no son iguales.
@@ -25,7 +23,7 @@ Los operadores de igualdad son utilizados para **comparar dos valores** y devuel
 
 Los operadores de desigualdad son utilizados para comparar dos valores y devuelven verdadero (`true`) si son diferentes.
 
-Igualmente que los operadores de igualdad, existen dos tipos:
+Similar a los operadores de igualdad, existen dos tipos:
 * Desigualdad por valor (`!=`)
 * Desigualdad por valor y tipo de dato (`!==`)
 
