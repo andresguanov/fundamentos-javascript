@@ -36,18 +36,18 @@ let mensaje = "Hola" + "Platzi"
 console.log(mensaje)// "HolaPlatzi"
 ```
 
-Ten cuenta que el **espacio también es un caracter**, por lo que debes agregarlo si lo necesitas.
+Ten en cuenta que el **espacio también es un caracter**, por lo que debes agregarlo si lo necesitas.
 
-El operador de concatenación es **semejante al operador de suma**, pero no es el mismo. Si utilizas este operador con diferentes tipos de datos, JavaScript realizará una [coerción implícita](https://platzi.com/clases/10266-javascript/70367-conversion-de-tipos-type-casting-y-coercion/).
+El operador de concatenación es **similar al operador de suma**, pero no es el mismo. Si utilizas este operador con diferentes tipos de datos, JavaScript realizará una [coerción implícita](https://platzi.com/clases/10266-javascript/70367-conversion-de-tipos-type-casting-y-coercion/).
 
 
 ## Qué son los *template literals*
 
 Los *template literals* o plantillas literales son una forma de crear *strings* más legibles y mantenibles. En el que se pueden incluir **variables y expresiones**.
 
-### Qué problema resuelve los *template literals*
+### Qué problema resuelven los *template literals*
 
-Sin *template literals*, si necesitas crear una cadena larga o un mensaje, debías utilizar la concatenación. 
+Sin *template literals*, si necesitas crear una cadena larga o un mensaje, debes utilizar la concatenación. 
 
 ```js
 let nombre = "Andres"
@@ -107,7 +107,7 @@ mensaje[0] = 'h' // Error ❌
 
 También puedes hacer **operaciones** con *strings*, como **obtener la longitud**, **convertir a minúsculas o mayúsculas** y **obtener una subcadena**. Esto se logra con los **métodos** de los *strings*.
 
-Rápidamente, los atributos y métodos son valores o modificaciones que se aplican a un *string*, mediante la notación de punto `.`. Pero diferencialos rápidamente en que los atributos son valores y los métodos son funciones que necesitan paréntesis `()` para ejecutarse.
+Rápidamente, los atributos y métodos son valores o modificaciones que se aplican a un *string* mediante la notación de punto (`.`). Pero diferencialos rápidamente en que los atributos son valores y los métodos son funciones que necesitan paréntesis `()` para ejecutarse.
 
 Ya entenderás qué son los atributos y métodos cuando abarquemos el tema de objetos. 
 
@@ -144,7 +144,7 @@ let mensaje = "Hola Platzi"
 let subcadena1 = mensaje.substring(0, 4)
 let subcadena2 = mensaje.substring(5, 11)
 
-console.log(subcadena) // 'Hola'
+console.log(subcadena1) // 'Hola'
 console.log(subcadena2) // 'Platzi'
 ```
 
