@@ -4,14 +4,14 @@ Existen dos tipos de ciclos repetitivos:
 * For (para)
 * While (mientras)
 
-## Qué es un ciclo *for*
+## Qué es un ciclo `for`
 
 Para el ciclo `for` **conocemos la cantidad de veces** que la estructura repetirá una o varias instrucciones.
 
 Por ejemplo, si queremos 10 números, sabemos que el ciclo se repetirá 10 veces.
 
 
-## Cómo utilizar el ciclo *for*
+## Cómo utilizar el ciclo `for`
 
 Para utilizar el ciclo `for`, debes seguir una estructura específica. La palabra reservada `for`, la condición y el bloque de código que se repetirá.
 
@@ -33,7 +33,7 @@ for (let inicio; condición; pasos) {
 }
 ```
 
-### Practiquemos el uso del bucle *for*
+### Practiquemos el uso del bucle `for`
 
 Por ejemplo, generemos los números del 1 al 10:
 * **Inicio del ciclo:** inicializamos una variable con el valor de 1, generalmente se utiliza `i` (índice) como variable para el bucle, pero no es obligatorio. En este caso utilizaremos `let num = 1`
@@ -162,7 +162,7 @@ let nombres = ["Andres", "Diego", "Platzi", "Ramiro", "Silvia"]
 let numeros = [1, 2, 3, 4, 5]
 ```
 
-### Cómo recorrer *arrays* con el ciclo *for*
+### Cómo recorrer *arrays* con el ciclo `for`
 En el anterior ejemplo aprendiste a generar números del 1 al 10, utilizaremos la misma lógica para recorrer un *array*. 
 
 ¿Qué debemos utilizar para acceder a los elementos de un *array*? Exactamente, sus índices (variable `i`). Debemos generar los índices desde `0` hasta `length` (que no debe estar incluido). Con esto, utilizamos la misma variable `i` para acceder a cada elemento con la sintaxis de corchetes `array[i]`.

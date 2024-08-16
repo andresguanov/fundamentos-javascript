@@ -29,7 +29,8 @@ for (let number of numbers) { ... }
 for (let el of elements) { ... }
 ```
 
-### Limitaciones del ciclo *for ... of*
+### Limitaciones del ciclo `for ... of`
+
 El ciclo `for ... of` **solo accede al valor** de cada uno de los elementos del iterable. Por consiguiente, si quieres cambiar un *array* original, no podrás hacerlo, porque necesitas su índice para acceder y cambiar su valor.
 
 Por ejemplo, si quieres duplicar el valor de cada elemento en el *array*, necesitarás su índice.

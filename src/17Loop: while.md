@@ -1,6 +1,6 @@
 El ciclo `while` es una estructura de control repetitiva que se utiliza para **ejecutar un bloque de código mientras una condición sea verdadera**.
 
-## Cómo utilizar el ciclo *while*
+## Cómo utilizar el ciclo `while`
 
 Para el ciclo `while` **no conocemos la cantidad de veces que la estructura repetirá una o varias instrucciones.** Aunque también se puede acoplar para que realice un determinado número de repeticiones. 
 
@@ -18,7 +18,7 @@ while (condición) {
 En este caso la condición es una expresión lógica a evaluar, si es verdadera repite el bloque de código, si es falsa el ciclo termina. Debido a esto, **necesitas cambiar la variable de la condición, para que no exista un bucle infinito**.
 
 
-### Practiquemos con el ciclo *while*
+### Practiquemos con el ciclo `while`
 
 Se requiere generar los números del 1 al 10, con un bucle `while`.
 
