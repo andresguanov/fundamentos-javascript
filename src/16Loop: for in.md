@@ -47,7 +47,7 @@ for (let propiedad in usuario) {
 }
 ```
 
-### Limitaciones del ciclo *for ... in*
+### Limitaciones del ciclo `for ... in`
 
 Si intentas recorrer un objeto con la estructura `for propiedad of objeto`, existirá un error, porque un **objeto no es un iterable**.
 
