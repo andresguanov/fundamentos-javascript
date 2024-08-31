@@ -180,6 +180,6 @@ De esta manera se ejecutará la función reductora adecuadamente.
 
 Los métodos `find` y `findIndex` permiten realizar búsquedas en un *array* y retornar el **primer elemento** que cumpla con la condición especificada.
 
-Si quieres saber más sobre este tema, continúa con la clase de **[¿Por qué aprender desarrollo web?](https://platzi.com/clases/10266-javascript/70355-busqueda-de-elementos-con-find-y-findindex/)**.
+Si quieres saber más sobre este tema, continúa con la clase de **[Búsqueda de elemtos con find y findIndex](https://platzi.com/clases/10266-javascript/70355-busqueda-de-elementos-con-find-y-findindex/)**.
 
 ***Contribución creada por:** Andrés Guano (Associate).*

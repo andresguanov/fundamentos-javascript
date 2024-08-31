@@ -49,6 +49,6 @@ console.log(primerElemento) // 1
 
 Los métodos `map` y `forEach` permiten recorrer los elementos de un array y ejecutar una función para cada uno.
 
-Si quieres saber más sobre este tema, continúa con la clase de **[¿Por qué aprender desarrollo web?](https://platzi.com/clases/10266-javascript/70353-iteracion-con-map-y-foreach/)**.
+Si quieres saber más sobre este tema, continúa con la clase de **[Iteración con map y forEach](https://platzi.com/clases/10266-javascript/70353-iteracion-con-map-y-foreach/)**.
 
 ***Contribución creada por:** Andrés Guano (Associate).*

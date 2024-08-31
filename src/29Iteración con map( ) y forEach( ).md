@@ -143,6 +143,6 @@ console.log(numbers) // [ 1, 2, 3, 4, 5 ]
 
 Los métodos `filter` y `reduce` permiten realizar operaciones más complejas con los elementos de un *array*.
 
-Si quieres saber más sobre este tema, continúa con la clase de **[¿Por qué aprender desarrollo web?](https://platzi.com/home/clases/10266-javascript/70354-filtrado-y-reduccion-con-filter-y-reduce/)**.
+Si quieres saber más sobre este tema, continúa con la clase de **[Filtrado y reducción con filter y reduce](https://platzi.com/home/clases/10266-javascript/70354-filtrado-y-reduccion-con-filter-y-reduce/)**.
 
 ***Contribución creada por:** Andrés Guano (Associate).*
